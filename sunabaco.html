@@ -7,6 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>n日後が</h1>
+    <h1>n日後わかるくん</h1>
+    <!-- カレンダーを利用して、日時を入力 -->
+    <form>
+    <input type="date" id="date">の
+    <input type="number" id="add_day">日後
+    <input type="button" id = "act" value="送信">
+    
+    </form>
+    <div id="result"></div>
+<!-- カレンダーに起点日を入力すると、その日からN日後がわかる -->
+<!-- 土日を含めない・含める 切り替え -->
+<!-- 含まれる祝日、祭日表示 -->
+<!-- 曜日指定して日数 -->
+    <p class="m">追加機能開発中</p>
+    <p>土日を含めない・含める 切り替え <br>含まれる祝日、祭日表示</p>
+    <a>作成者：<a>
+    <a href="https://twitter.com/trackmakerDJ">いぐお</a>
 </body>
+<!-- JQueryを読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./test.js"></script>
 </html>
